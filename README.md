@@ -11,7 +11,7 @@ Representation for Video Object Decomposition**
 - Evaluate GraphSlot model on MOVi-C dataset
 - Checkpoints of GraphSlot on MOVi-C dataset
 
-![figure2](.\figure2.png)
+![figure2](https://github.com/HaronW/GraphSlot/blob/main/figure2.png)
 
 
 
