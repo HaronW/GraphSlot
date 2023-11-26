@@ -7,12 +7,11 @@ Representation for Video Object Decomposition**
 
 ​	This code contains:
 
-	  - Training GraphSlot model on MOVi-C dataset
-
+- Training GraphSlot model on MOVi-C dataset
 - Evaluate GraphSlot model on MOVi-C dataset
 - Checkpoints of GraphSlot on MOVi-C dataset
 
-![figure2](E:\academic\GraphSlot\paper\figure\figure2.png)
+![figure2](.\figure2.png)
 
 
 
