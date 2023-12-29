@@ -1,4 +1,3 @@
-# from savi.datasets.tfds.load_tfds_data import test
 from graphslot.trainers.tfds_trainer import test
 from graphslot.trainers.tfds_trainer_dataparallel import test
 
