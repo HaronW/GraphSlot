@@ -1,7 +1,5 @@
 """Initializers module library."""
 
-# FIXME
-
 import functools
 from turtle import forward
 from typing import Any, Callable, Dict, Iterable, Mapping, Optional, Sequence, Tuple, Union
@@ -11,9 +9,9 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 
-from savi.lib import utils
-from savi.modules import misc
-from savi.modules import video
+from graphslot.lib import utils
+from graphslot.modules import misc
+from graphslot.modules import video
 
 Shape = Tuple[int]
 

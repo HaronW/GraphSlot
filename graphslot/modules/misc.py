@@ -10,11 +10,11 @@ import torch.nn.functional as F
 import numpy as np
 import math
 
-import savi.lib.metrics as metrics
-import savi.lib.metrics_jax as metrics_jax
-import savi.modules.evaluator as evaluator
-from savi.lib import utils
-from savi.lib.utils import init_fn
+import graphslot.lib.metrics as metrics
+import graphslot.lib.metrics_jax as metrics_jax
+import graphslot.modules.evaluator as evaluator
+from graphslot.lib import utils
+from graphslot.lib.utils import init_fn
 
 DType = Any
 Array = torch.Tensor

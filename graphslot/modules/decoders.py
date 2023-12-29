@@ -9,8 +9,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 
-from savi.lib import utils
-from savi.lib.utils import init_fn
+from graphslot.lib import utils
+from graphslot.lib.utils import init_fn
 
 Shape = Tuple[int]
 

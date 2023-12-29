@@ -16,16 +16,16 @@ from datetime import datetime
 from pathlib import Path
 import wandb
 
-from savi.datasets.tfds import tfds_input_pipeline
-from savi.datasets.tfds.tfds_dataset_wrapper import MOViData
-from savi.datasets.tfds.tfds_dataset_wrapper import YoutubeVisData
-import savi.modules as modules
-from savi.modules.factory import build_modules as modules_flow
-import savi.modules.evaluator
+from graphslot.datasets.tfds import tfds_input_pipeline
+from graphslot.datasets.tfds.tfds_dataset_wrapper import MOViData
+from graphslot.datasets.tfds.tfds_dataset_wrapper import YoutubeVisData
+import graphslot.modules as modules
+from graphslot.modules.factory import build_modules as modules_flow
+import graphslot.modules.evaluator
 
-import savi.trainers.utils.misc as misc
-import savi.trainers.utils.lr_sched as lr_sched
-import savi.trainers.utils.lr_decay as lr_decay
+import graphslot.trainers.utils.misc as misc
+import graphslot.trainers.utils.lr_sched as lr_sched
+import graphslot.trainers.utils.lr_decay as lr_decay
 
 
 def get_args():

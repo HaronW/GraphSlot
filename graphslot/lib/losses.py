@@ -1,6 +1,5 @@
 """Loss functions."""
 
-# FIXME
 
 import functools
 import inspect

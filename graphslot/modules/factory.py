@@ -5,11 +5,11 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
-from savi.lib.utils import init_fn
+from graphslot.lib.utils import init_fn
 
-import savi.modules as modules
-import savi.modules.misc as misc
-from savi.modules import CNN2, ResidualBlock
+import graphslot.modules as modules
+import graphslot.modules.misc as misc
+from graphslot.modules import CNN2, ResidualBlock
 
 
 def build_model(args):

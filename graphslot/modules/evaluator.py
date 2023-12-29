@@ -1,7 +1,5 @@
 """Model evaluation."""
 
-# TODO: rename file
-
 from typing import Callable, Dict, Iterable, Mapping, Optional, Sequence, Tuple, Type, Union
 
 import torch

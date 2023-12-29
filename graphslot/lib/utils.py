@@ -1,6 +1,5 @@
 """Common utils."""
 
-# TODO:
 
 import functools
 import importlib
@@ -16,7 +15,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import skimage.transform
 
-from savi.lib import metrics
+from graphslot.lib import metrics
 
 Array = Union[np.ndarray, torch.Tensor] # FIXME:
 ArrayTree = Union[Array, Iterable["ArrayTree"], Mapping[str, "ArrayTree"]]  # pytype: disable=not-supported-yet

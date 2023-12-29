@@ -9,8 +9,8 @@ import torch
 from torch import nn
 from torch.nn import functional as F
 
-from savi.lib import utils
-import savi.modules as modules
+from graphslot.lib import utils
+import graphslot.modules as modules
 
 Array = torch.Tensor
 

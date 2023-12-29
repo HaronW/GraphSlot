@@ -1,7 +1,5 @@
 """Convolutional module library."""
 
-# FIXME
-
 import functools
 from typing import Any, Callable, Dict, Iterable, Mapping, Optional, Sequence, Tuple, Union
 
@@ -12,7 +10,7 @@ import numpy as np
 import torchvision.transforms as transforms
 import math
 
-from savi.lib.utils import init_fn
+from graphslot.lib.utils import init_fn
 
 Shape = Tuple[int]
 
