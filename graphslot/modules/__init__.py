@@ -13,5 +13,5 @@ from .initializers import (GaussianStateInit, ParamStateInit,
                            CoordinateEncoderStateInit)
 from .misc import (MLP, PositionEmbedding, Readout)
 from .video import (FrameEncoder, Processor, SAVi)
-from .factory import build_modules as savi_build_modules
+from .factory import build_modules as graphslot_build_modules
 from .GNN import (ConstructGraph, GraphEmb, GraphCorrector)

@@ -27,6 +27,10 @@ import graphslot.trainers.utils.misc as misc
 import graphslot.trainers.utils.lr_sched as lr_sched
 import graphslot.trainers.utils.lr_decay as lr_decay
 
+processors_dict = {
+    'savi': modules.savi_build_modules,
+    'flow': modules_flow
+}
 
 def get_args():
     parser = argparse.ArgumentParser('TFDS dataset training for SAVi.')
@@ -320,7 +324,7 @@ def run(args):
     val_loader = torch.utils.data.DataLoader(dataset_val, 1, shuffle=False)
 
     # Model setup
-    model, criterion, evaluator = processors_dict['savi'](args)
+    model, criterion, evaluator = modules.graphslot_build_modules(args)
     model = model.to(device)
     criterion = criterion.to(device)
     evaluator = evaluator.to(device)
