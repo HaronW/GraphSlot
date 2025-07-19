@@ -40,7 +40,7 @@ gsutil -m cp -r "gs://kubric-public/tfds/movi_c/128x128" .
 
 #### Train
 
-​	To train Phy-GraphSlot, run:
+​	To train GraphSlot, run:
 
 ```shell
 cd ./GraphSlot
