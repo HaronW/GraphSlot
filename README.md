@@ -51,7 +51,7 @@ python -m graphslot.main --seed 42 --gpu 0,1 --mode=graphslot
 
 #### Evaluate checkpoints
 
-​	To evaluate Phy-GraphSlot, run:
+​	To evaluate GraphSlot, run:
 
 ```shell
 cd ./GraphSlot
